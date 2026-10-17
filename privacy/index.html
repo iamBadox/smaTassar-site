@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy policy for Små Tassar, including local data storage, Family Sync, and CloudKit public database limitations. English and Swedish.">
+    <title>Privacy Policy · Integritetspolicy — Små Tassar</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="../">
+          <span class="brand-mark" aria-hidden="true"><span>ST</span></span>
+          Små Tassar
+        </a>
+        <div class="site-nav">
+          <a href="../">Home</a>
+          <a href="./" aria-current="page">Privacy</a>
+          <a href="../support/">Support</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="page-shell">
+      <header class="bilingual-intro">
+        <div>
+          <p class="eyebrow">Privacy · Integritet</p>
+          <h1 class="page-title">Clear about where your data goes.</h1>
+          <p class="lede">
+            The core app stores data on your device. Family Sync is optional
+            and uses the public database of the app's Apple CloudKit container.
+          </p>
+        </div>
+        <nav class="language-links" aria-label="Choose policy language">
+          <a href="#english">English</a>
+          <a href="#svenska" hreflang="sv">Svenska</a>
+        </nav>
+      </header>
+
+      <div class="content-layout">
+        <nav class="contents" aria-label="Privacy policy contents">
+          <strong>On this page</strong>
+          <a href="#english">English policy</a>
+          <a href="#svenska" hreflang="sv">Svensk policy</a>
+          <a href="../support/">Support</a>
+        </nav>
+
+        <div>
+          <article id="english" class="language-section" lang="en" aria-labelledby="privacy-en-title">
+            <p class="section-label">English · Last updated 17 October 2026</p>
+            <h2 id="privacy-en-title">Privacy Policy</h2>
+            <p>
+              Små Tassar is a personal, independent app built and maintained
+              by André B. ("the developer") as a best-effort project.
+            </p>
+
+            <section class="content-block" aria-labelledby="en-overview">
+              <h3 id="en-overview">Overview</h3>
+              <p>
+                The developer does not use Små Tassar to track you, advertise
+                to you, sell your information, or build analytics profiles.
+                Most information you enter is stored locally on your device
+                using Apple's SwiftData framework.
+              </p>
+              <p>
+                If you choose to use Family Sync, selected app data is sent to
+                Apple's CloudKit service as described below. The developer team
+                can technically access and manage those public-database records
+                through Apple's CloudKit Console, but does not routinely inspect
+                them, sell them, use them for advertising, or share them with
+                other parties.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="en-local">
+              <h3 id="en-local">Data stored on your device</h3>
+              <p>
+                Litter, puppy, and weight data is local by default. The core app
+                does not require an account or internet connection. Data leaves
+                the device only when you explicitly share selected litters
+                through Family Sync or export a backup.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="en-family-sync">
+              <h3 id="en-family-sync">Family Sync and CloudKit</h3>
+              <p>
+                Family Sync lets people using different Apple IDs work with the
+                same selected litters. It stores shared records in the
+                <strong>public database</strong> of the app's CloudKit container,
+                hosted by Apple and governed by
+                <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.
+              </p>
+              <p>Depending on what you choose to share and enter, these records can include:</p>
+              <ul>
+                <li>family name, six-character join code, record identifiers, and sync timestamps;</li>
+                <li>member display names and a random identifier created for each app installation, which is not an Apple ID or hardware identifier;</li>
+                <li>selected litter names and dates;</li>
+                <li>puppy names, collar colours, sex, birth weights, and birth dates;</li>
+                <li>weight values and dates; and</li>
+                <li>deletion markers used to sync removals between devices.</li>
+              </ul>
+
+              <div class="callout">
+                <p>
+                  <strong>The join code is the only in-app barrier.</strong>
+                  Anyone who has the code can join that family in the app and
+                  see its shared records. Treat it like a password and do not
+                  post it publicly.
+                </p>
+              </div>
+
+              <p>
+                "Public database" is a CloudKit technical term with an important
+                limitation: CloudKit does not enforce private, per-family access
+                controls for these records. The app tags records with a family
+                identifier and normally requests only records for the joined
+                family, but that filtering is performed by the app. A person
+                with sufficient technical knowledge could potentially build
+                another CloudKit client and attempt to read records without
+                using Små Tassar.
+              </p>
+              <p>
+                Do not enter addresses, phone numbers, buyer details, financial
+                information, health information, or anything else sensitive in
+                shared fields. Family Sync is intended for ordinary puppy and
+                litter records.
+              </p>
+              <p>
+                Apple handles iCloud sign-in. Små Tassar does not receive your
+                Apple ID password. Leaving a family keeps the litter data on
+                your device and stops that device from syncing. Shared records
+                may remain in CloudKit for the other family members; leaving
+                does not promise immediate deletion of all shared records.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="en-export">
+              <h3 id="en-export">Exported and imported data</h3>
+              <p>
+                Export Data creates a JSON file and hands it to the standard iOS
+                share sheet. You decide whether it goes to Files, AirDrop, Mail,
+                or another app. Those destinations have their own privacy terms,
+                and the developer cannot see where you send the file.
+              </p>
+              <p>
+                Imported backups are placed in the local data store and are not
+                automatically uploaded to Family Sync.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="en-services">
+              <h3 id="en-services">Analytics, advertising, and third parties</h3>
+              <p>
+                Små Tassar includes no advertising, analytics, tracking SDKs,
+                third-party JavaScript, or independent crash-reporting service.
+                Family Sync relies on Apple CloudKit only when you enable it.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="en-legal">
+              <h3 id="en-legal">Warranty and liability</h3>
+              <p>
+                The app is provided "as is" and "as available", without warranty
+                of any kind, express or implied. To the fullest extent permitted
+                by applicable law, the developer is not liable for direct,
+                indirect, incidental, special, consequential, or punitive
+                damages arising from use of, or inability to use, the app,
+                including data loss.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="en-changes">
+              <h3 id="en-changes">Changes and contact</h3>
+              <p>
+                This policy may be updated when the app or its data practices
+                change. The date at the top shows the latest revision.
+              </p>
+              <p>
+                For privacy questions, visit
+                <a href="https://github.com/iamBadox">André B.'s public GitHub profile</a>
+                for current public contact options. Do not include a Family Sync
+                join code or sensitive information in a public message.
+              </p>
+            </section>
+          </article>
+
+          <article id="svenska" class="language-section" lang="sv" aria-labelledby="privacy-sv-title">
+            <p class="section-label">Svenska · Senast uppdaterad 17 oktober 2026</p>
+            <h2 id="privacy-sv-title">Integritetspolicy</h2>
+            <p>
+              Små Tassar är en personlig, oberoende app byggd och underhållen
+              av André B. ("utvecklaren") som ett best-effort-projekt.
+            </p>
+
+            <section class="content-block" aria-labelledby="sv-overview">
+              <h3 id="sv-overview">Översikt</h3>
+              <p>
+                Utvecklaren använder inte Små Tassar för att spåra dig, visa
+                reklam, sälja dina uppgifter eller skapa analysprofiler. Den
+                mesta information du anger lagras lokalt på din enhet med
+                Apples SwiftData-ramverk.
+              </p>
+              <p>
+                Om du väljer att använda Familjesynk skickas utvalda appdata
+                till Apples CloudKit-tjänst enligt beskrivningen nedan.
+                Utvecklarteamet kan tekniskt komma åt och hantera posterna i
+                den publika databasen via Apples CloudKit Console, men granskar
+                dem inte rutinmässigt, säljer dem inte, använder dem inte för
+                reklam och delar dem inte med andra parter.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="sv-local">
+              <h3 id="sv-local">Data som lagras på din enhet</h3>
+              <p>
+                Data om kullar, valpar och vikter är lokal som standard. Appens
+                kärnfunktioner kräver inget konto eller internet. Data lämnar
+                enheten bara när du uttryckligen delar utvalda kullar genom
+                Familjesynk eller exporterar en säkerhetskopia.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="sv-family-sync">
+              <h3 id="sv-family-sync">Familjesynk och CloudKit</h3>
+              <p>
+                Familjesynk låter personer med olika Apple-ID arbeta med samma
+                utvalda kullar. Delade poster lagras i den
+                <strong>publika databasen</strong> i appens CloudKit-container,
+                som driftas av Apple och omfattas av
+                <a href="https://www.apple.com/se/legal/privacy/">Apples integritetspolicy</a>.
+              </p>
+              <p>Beroende på vad du väljer att dela och ange kan posterna innehålla:</p>
+              <ul>
+                <li>familjenamn, sex tecken lång anslutningskod, postidentifierare och tidsstämplar för synkronisering;</li>
+                <li>medlemmars visningsnamn och en slumpmässig identifierare som skapas för varje appinstallation och som inte är ett Apple-ID eller hårdvaru-ID;</li>
+                <li>namn och datum för utvalda kullar;</li>
+                <li>valpnamn, halsbandsfärger, kön, födelsevikter och födelsedatum;</li>
+                <li>vikter och datum; samt</li>
+                <li>raderingsmarkeringar som används för att synka borttagningar mellan enheter.</li>
+              </ul>
+
+              <div class="callout">
+                <p>
+                  <strong>Anslutningskoden är den enda spärren i appen.</strong>
+                  Den som har koden kan gå med i familjen i appen och se dess
+                  delade poster. Behandla den som ett lösenord och publicera
+                  den inte öppet.
+                </p>
+              </div>
+
+              <p>
+                "Publik databas" är en teknisk CloudKit-term med en viktig
+                begränsning: CloudKit upprätthåller inte privata
+                åtkomstregler per familj för dessa poster. Appen märker
+                posterna med en familjeidentifierare och begär normalt bara
+                poster för den familj du gått med i, men filtreringen görs av
+                appen. En person med tillräckliga tekniska kunskaper skulle
+                potentiellt kunna bygga en annan CloudKit-klient och försöka
+                läsa poster utan att använda Små Tassar.
+              </p>
+              <p>
+                Skriv inte adresser, telefonnummer, köparuppgifter, ekonomisk
+                information, hälsouppgifter eller annan känslig information i
+                delade fält. Familjesynk är avsett för vanliga uppgifter om
+                valpar och kullar.
+              </p>
+              <p>
+                Apple hanterar inloggningen till iCloud. Små Tassar får inte
+                ditt lösenord till Apple-ID:t. När du lämnar en familj behålls
+                kulldata på din enhet och enheten slutar synka. Delade poster
+                kan finnas kvar i CloudKit för övriga familjemedlemmar; att
+                lämna innebär inte att alla delade poster omedelbart raderas.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="sv-export">
+              <h3 id="sv-export">Exporterad och importerad data</h3>
+              <p>
+                Exportera data skapar en JSON-fil och lämnar den till iOS
+                vanliga delningsmeny. Du väljer om den går till Filer, AirDrop,
+                Mail eller en annan app. De tjänsterna har egna
+                integritetsvillkor och utvecklaren kan inte se vart du skickar
+                filen.
+              </p>
+              <p>
+                Importerade säkerhetskopior läggs i det lokala datalagret och
+                laddas inte automatiskt upp till Familjesynk.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="sv-services">
+              <h3 id="sv-services">Analys, reklam och tredje parter</h3>
+              <p>
+                Små Tassar innehåller ingen reklam, analys, spårnings-SDK,
+                JavaScript från tredje part eller fristående tjänst för
+                kraschrapportering. Familjesynk använder Apple CloudKit endast
+                när du aktiverar funktionen.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="sv-legal">
+              <h3 id="sv-legal">Garanti och ansvar</h3>
+              <p>
+                Appen tillhandahålls "i befintligt skick" och "i mån av
+                tillgänglighet", utan uttrycklig eller underförstådd garanti.
+                I den utsträckning tillämplig lag tillåter ansvarar utvecklaren
+                inte för direkta, indirekta, oförutsedda, särskilda,
+                följdmässiga eller straffrättsliga skador som uppstår genom
+                användning av, eller oförmåga att använda, appen, inklusive
+                dataförlust.
+              </p>
+            </section>
+
+            <section class="content-block" aria-labelledby="sv-changes">
+              <h3 id="sv-changes">Ändringar och kontakt</h3>
+              <p>
+                Policyn kan uppdateras när appen eller dess datahantering
+                ändras. Datumet högst upp visar den senaste versionen.
+              </p>
+              <p>
+                För integritetsfrågor, besök
+                <a href="https://github.com/iamBadox">André B:s publika GitHub-profil</a>
+                för aktuella offentliga kontaktalternativ. Ta inte med en
+                anslutningskod för Familjesynk eller känslig information i ett
+                offentligt meddelande.
+              </p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-shell">
+        <p>Små Tassar is an independent app by André B.</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="../">Home</a>
+          <a href="../support/">Support</a>
+          <a href="https://github.com/iamBadox">GitHub profile</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
